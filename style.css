@@ -1,17 +1,12 @@
 body {
   background-color: black;
-  color: #ffffff;
+  /* color: #ffffff; */
   margin: 0px;
   padding: 0px;
 }
 
 
-/* #Hero-Section {
-  background-image: url(".");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: left;
-} */
+
 
 .header {
   align-items: center;
@@ -34,7 +29,7 @@ header h1 {
 }
 
 p {
-  color: blueviolet;
+  color: #8d217f;
 }
 
 /* SECCION DE INICIO */
@@ -47,25 +42,27 @@ p {
     ),
     url(../Gustavo-atton.github.io/assets/img/headerfondo.jpeg);
   background-size: cover;
-  height: 100vh;
+  height: 90vh;
   color: #0ebde5;
   display: flex;
   align-items: center;
+  border-radius: 2%;
+  margin: 100px ;
 }
 
 .inicio .contenido-banner {
-  padding: 20px;
-  background-color: #1e2326;
-  max-width: 350px;
-  margin: auto;
+  padding: 30px;
+/*   background-color: #000000; */
+  max-width:  350px;
+  margin: 20px ;
   text-align: center;
   border-radius: 40px;
 }
 .inicio .contenido-banner img {
   margin-top: 40px;
-  border: 10px solid #024b6f;
+  border: 10px solid #8d217f;
   display: block;
-  width: 50%;
+  width: 60% ;
   margin: auto;
   border-radius: 100%;
 }
@@ -79,10 +76,10 @@ p {
   font-weight: normal;
 }
 .inicio .contenido-banner .redes a {
-  color: #fff;
+  color: #ffffff;
   display: inline-block;
   text-decoration: none;
-  border: 1px solid #fff;
+  border: 1px solid #8d217f ;
   border-radius: 100%;
   width: 42px;
   height: 42px;
@@ -92,5 +89,19 @@ p {
   transition: 0.3s;
 }
 .inicio .contenido-banner .redes a:hover {
-  background-color: #1cb698;
+  background-color: #0ebde5;
+}
+
+section p {color: #0ebde5}
+
+section div  {
+  border-radius:20px 
+}
+
+s/* ection div div div  div {border:3px solid #8d217f ;
+border-radius:20px ;} */
+
+.portafoliocolor{
+
+color: #0ebde5;
 }
