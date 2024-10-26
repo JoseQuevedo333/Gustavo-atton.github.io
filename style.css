@@ -5,12 +5,26 @@ body {
   padding: 0px;
 }
 
-#Hero-Section {
-  background-image: url("../Gustavo-atton.github.io/assets/img/headerfondo.jpeg");
+
+/* #Hero-Section {
+  background-image: url(".");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
+} */
+
+.header {
+  align-items: center;
+  background-image: url(./assets/img/headerfondo.jpeg);
+  background-position: center;
+  background-size: cover;
+  height: 50rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
+
 header h1 {
   color: #ffffff;
   text-align: center;
