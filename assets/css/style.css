@@ -10,7 +10,7 @@ body {
 
 .header {
   align-items: center;
-  background-image: url(/cv_portafolio/Gustavo-atton.github.io/assets/img/headerfondo.jpeg);
+  background-image: url(../img/headerfondo.jpeg);
   background-position: center;
   background-size: cover;
   height: 50rem;
